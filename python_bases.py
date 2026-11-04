@@ -61,7 +61,7 @@ except Exception as e:
 
 def demo_finally(string):
     try:
-        boite_a_erreurs('hello')
+        boite_a_erreurs(string)
         print('ouverture fichier ex...')
         return 'Hello'
     except (TypeError, ValueError) as e:
